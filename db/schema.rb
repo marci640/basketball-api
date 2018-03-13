@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180222224551) do
+ActiveRecord::Schema.define(version: 20180313054843) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20180222224551) do
 
   create_table "teams", force: :cascade do |t|
     t.string "college_name"
-    t.integer "starting_bracket"
+    t.integer "seed"
     t.boolean "first_four"
     t.boolean "first_round"
     t.boolean "second_round"
