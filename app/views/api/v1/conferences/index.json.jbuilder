@@ -5,7 +5,7 @@ json.array! @conferences.each do |conference|
     json.id team.id 
     json.conference_id team.conference_id 
     json.college_name team.college_name
-    json.starting_bracket team.starting_bracket
+    json.seed team.seed
     json.first_four team.first_four
     json.first_round team.first_round
     json.second_round team.second_round

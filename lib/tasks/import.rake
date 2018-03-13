@@ -7,7 +7,7 @@ namespace :import do
     CSV.foreach(filename, headers: true) do |row|
       Team.create({
     conference_id: row[0],
-    starting_bracket: row[1],
+    seed: row[1],
     college_name: row[2],
     first_four: false,
     first_round: false,

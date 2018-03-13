@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-region_array = ["East", "Midwest", "West", "South"]
+region_array = ["South", "East", "West", "Midwest"]
 region_array.each do |region|
   Conference.create!({
     region: region
