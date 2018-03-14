@@ -20,7 +20,6 @@ conference_id,seed,college_name
 2,16,Radford
 2,11,UCLA
 2,1,Villanova
-2,16,LIU/RAD
 2,8,Va. Tech
 2,9,Alabama
 2,5,W. Virginia
@@ -28,7 +27,6 @@ conference_id,seed,college_name
 2,4,Wichita St.
 2,13,Marshall
 2,6,Florida
-2,11,STBON/UCLA
 2,3,Texas Tech
 2,14,SF Austin
 2,7,Arkansas
@@ -36,7 +34,6 @@ conference_id,seed,college_name
 2,2,Purdue
 2,15,CSFullerton
 3,1,Xavier
-3,16,NCCU/TXSO
 3,8,Missouri
 3,9,Florida St.
 3,5,Ohio St.
@@ -51,7 +48,7 @@ conference_id,seed,college_name
 3,10,Providence
 3,16,N.C. Central
 3,2,N. Carolina
-3,15,Lipscomb 
+3,15,Lipscomb
 3,16,Texas So.
 4,1,Kansas
 4,16,Penn
@@ -62,7 +59,6 @@ conference_id,seed,college_name
 4,4,Auburn
 4,13,Charleston
 4,6,TCU
-4,11,ASU/SYR
 4,3,Michigan St.
 4,14,Bucknell
 4,7,Rhode Island

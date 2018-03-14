@@ -11,7 +11,7 @@ class Api::V1::ConferencesController < ApplicationController
     array = string.gsub!(/(\d+)|([ ]{2,})|(\n)/, ',').split(',').map(&:strip).reject { |string| string.empty? }
     # Turn all integers, spaces (more than 2), and new lines into commas. Split on commas. Remove extra spaces around strings, and remove all empty strings from array.
     scorecard_hash = array.each_with_object(Hash.new(0)) { |team,count| count[team] += 1 }
-   
+ 
     p scorecard_hash
     @conferences.each do |conference|
       conference.teams.each do |team|
