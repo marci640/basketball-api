@@ -4,7 +4,7 @@ namespace :import do
   desc "Task callled by Heroku scheduler add-on"
   task update_bracket: :environment do
     @conferences = Conference.all
-    first_four = ["NC Central", "N. Dak. St", "F. Dickinson", "Prairie View", "Belmont.", "Temple", "Arizona St.", "St. John's"]
+    first_four = ["NC Central", "N. Dak. St.", "F. Dickinson", "Prairie View", "Belmont", "Temple", "Arizona St.", "St. John's"]
     
     io = open('http://sports.cbsimg.net/images/collegebasketball/ncaa-tournament/brackets/printable/cbs-sports-2019.pdf'.to_s)
     reader = PDF::Reader.new(io)
